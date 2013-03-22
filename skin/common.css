@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* reset begin */
+*{ margin: 0; padding:0;}
+ul{ list-style-type: none;}
+a {text-decoration: none;}
+table { border-collapse: collapse; }
+img{ border: 0 none;}
+em{ font-style: normal;}
+button{ border: 0 none;}
+body{ width: 1002px; margin: 0 auto; font-size: 14px; background: #FFF; font-family: "arial";}
+/* reset end */
+
+/* clearfix begin */
+.clearfix:after { visibility:hidden; display:block; font-size:0; content:""; clear:both; height:0; }
+* html .clearfix { zoom:1; } /* IE6 */
+*:first-child+html .clearfix { zoom:1; } /* IE7 */
+/* clearfix end */
+
+/* header begin */
+.head_top{ height: 5px; background: #595551; margin-bottom: 20px;}
+.header_left{ float: left; width: 260px; height: 93px; background: url(./images/header_left.png);}
+.nav{ float: left; padding-left: 94px;}
+.nav li{ float: left; margin-right: 34px;}
+.nav li a{ color: #595551; font-weight: 700;}
+.nav li a:hover{ color: #CF3344;}
+/* header end */
+
+/* main begin */
+.content{ margin-bottom: 20px;}
+.content_left{ float: left; width: 260px; height: 567px; background: #CF3344; padding-top: 13px;}
+#logo{ display: block; width: 241px; height: 42px; background: url(./images/logo.png); margin: 0 10px 5px 10px; text-indent: -9999px;}
+.content_left .link{ margin-left: 122px; color: #F5F1EB;}
+.content_left .logo{ margin-bottom: 31px;}
+.column{ width: 200px; padding: 39px 30px 0 30px; margin-bottom: 20px; background: url(./images/column_1.png) no-repeat;}
+.column li{ line-height: 30px; width: 200px; overflow: hidden;}
+.column li a{ color: #FFF;}
+.column li a:hover{ text-decoration: underline;}
+.column_bg{ background: url(./images/column_2.png) no-repeat;}
+.content_right{ float: left;}
+.slide_wrap{ width: 742px; height: 460px; margin-bottom: 10px; overflow: hidden;}
+.slide{ width: 3710px;}
+.slide li{ position: relative; float: left;}
+.slide img{ display: block;}
+.shadow{ width: 724px; height: 92px; padding: 8px 0 0 18px; background: url(./images/shadow.png) repeat-x; position: absolute;  top: 360px;
+    overflow: hidden;}
+.shadow p{ float: left; color: #FFF; line-height: 18px; clear: left; padding-bottom: 13px;}
+.shadow em{ float: left; display: block; width: 55px; height: 28px;}
+.intro span{ float: left; background: #CF3344; padding: 0 5px;}
+.intro em{ width: 120px;}
+.shadow a{ color: #FFF; line-height: 23px; background: #CF3344; position: absolute; bottom: 7px; right: 9px; padding: 0 7px;}
+.slide_list{ padding-left: 6px;}
+.slide_list li{ float: left; padding-top: 5px; margin-right: 10px;}
+.slide_list .list_end{ margin-right: 0;}
+.slide_list img{ display: block; border: 1px solid #FFF;}
+.slide_list a{ display: block; padding: 4px; background: #BBB; position: relative;}
+.slide_list a:hover { background: #CF3344;}
+.slide_list a:hover:before{ display: block;}
+.slide_list a:before{ display: none; content: ""; width: 0; height: 0; z-index: -1;
+    border-bottom: 10px solid #CF3344;
+    border-left: 5px solid #CF3344;
+    border-right: 5px solid #CF3344;
+    position: absolute; top: -4px; left: 65px;
+    -webkit-transform: rotate(45deg);}
+.content_list{ margin-bottom: 40px;}
+.hotel{ float: left; width: 590px; height: 266px; background: #DBD4CD; margin-right: 10px; padding: 4px 0 0 4px; position: relative;}
+.hotel:hover{ background: #CF3344;}
+.hotel img{ float: left; display: block; border: 1px solid #FFF; margin-right: 14px;}
+.describe{ float: left; padding-top: 13px;}
+.describe h3{ width: 180px; color: #FFF; font-size: 18px; line-height: 30px; margin-bottom: 30px;}
+.describe p{ color: #FFF; line-height: 24px;}
+.hotel a{ position: absolute; bottom: 10px; right: 10px; color: #FFF; font-size: 18px;}
+.hotel_list table{ width: 398px; overflow: hidden;}
+.hotel_list h3{ color: #595551; font-size: 30px; }
+.hotel_list th{ color: #CF3344; line-height: 20px; font-weight: 700;}
+.hotel_list td{ line-height: 18px; color: #595551;}
+.hotel_list .shape{ text-align: left; width: 300px;}
+.hotel_list .color{ color: #FF8A00; text-align: center;}
+/* main end */
+
+/* footer begin */
+.footer{ width: 1002px; height: 50px; background: #595551;}
+.copyright{ float: right; padding: 12px 10px 0 0;}
+.copyright a{ float: left; display: block; width: 163px; height: 19px; margin-right: 20px; padding-top: 5px;}
+.copyright span{ float: left;color: #93908D; height: 18px; margin-right: 20px; padding-top: 5px;}
+.copyright p{ float: left; height: 25px; font-family: "Calibri"; font-size: 10px; color: #FFF;}
+/* footer end */
